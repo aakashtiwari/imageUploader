@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #eee;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.container{
+  width:999px;
+}
+
+.upImage {
+  visibility: hidden;
+}
+
+.vanilla-rotate {
+  display: block;
+  height: 20px;
+  margin: 5px 0px;
+}

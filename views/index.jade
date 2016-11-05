@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  div.container
+    h1 Simple Image Uploader
+    hr
+    form(action='/upload', enctype='multipart/form-data', method='post', id='uploadImageForm')
+      input(type='file', name='avatar', onchange='showImageForEdit(this)', id='imagebase64',accept='image/x-png, image/gif, image/jpeg')
+      input(type='submit', value='Submit', class='vanilla-result')
+    button.vanilla-rotate(data-deg='90') Rotate
+    img(class='upImage', id='image_selected', src='#', alt='your image')
+    
